@@ -75,6 +75,7 @@
 
 6. rollback command
 ```
+  git log // to findout which version you want to rollback to.
   git reset --hard <commit-code>
 ```
  git relate files
