@@ -29,6 +29,8 @@
 
   git log  // Check activity log
 
+  git reflog  // record all your activity in log, in case you rollback to previous commit but can't check the latest commit code 
+
 ```
 
 3. Github part commands
@@ -47,6 +49,7 @@
 4. Git branch commands
 
 ```
+  //only if we have a remote repo
   git branch   // check how many and what branches we have
   git branch <branch-name>  // create a new branch with <branch-name>
   git checkout <branch-name> // switch to another git branch
@@ -68,6 +71,11 @@
   git merge dev 
   //then we should push the changes to update the reop
   git push
+```
+
+6. rollback command
+```
+  git reset --hard <commit-code>
 ```
  git relate files
 .gitignore files 
